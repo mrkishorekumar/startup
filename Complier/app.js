@@ -1,3 +1,20 @@
+const editorFontHTML = ace.edit("html");
+const editorFontCSS = ace.edit("css");
+const editorFontJS = ace.edit("javascript");
+
+
+editorFontHTML.setOptions({
+    fontSize: "0.5rem"
+});
+
+editorFontCSS.setOptions({
+    fontSize: "0.5rem"
+});
+
+editorFontJS.setOptions({
+    fontSize: "0.5rem"
+});
+
 window.onload = function () {
     
     for (var i = 0; i < document.getElementsByClassName("code").length; i++)
