@@ -4,15 +4,15 @@ const editorFontJS = ace.edit("javascript");
 
 
 editorFontHTML.setOptions({
-    fontSize: "0.5rem"
+    fontSize: "0.6rem"
 });
 
 editorFontCSS.setOptions({
-    fontSize: "0.5rem"
+    fontSize: "0.6rem"
 });
 
 editorFontJS.setOptions({
-    fontSize: "0.5rem"
+    fontSize: "0.6rem"
 });
 
 window.onload = function () {
