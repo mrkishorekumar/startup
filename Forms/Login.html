@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Web</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <!-- Dark Mode -->
+    <link rel="stylesheet" href="dark-mode.css">
+    <script src="js/dark-mode-switch.min.js" defer></script>
+</head>
+
+<body>
+    <form class="fs-5 p-5" style="max-width: 18rem;">
+        <h2 class="mb-4">Login</h2>
+        <div class="mb-3">
+            <label for="Email" class="form-label">Email</label>
+            <input type="email" name="Email" id="Email" class="form-control" placeholder="Email" required>
+        </div>
+        <div class="mb-3">
+            <label for="Password" class="form-label">Password</label>
+            <input type="password" name="Password" id="Password" class="form-control" placeholder="Password" required>
+        </div>
+        <p class="mb-3 fs-6"><a href="Register.html" class="pe-auto">Click here</a> to Register.</p>
+        <div class="custom-control custom-switch">
+            <input type="checkbox" class="custom-control-input" id="darkSwitch">
+            <label class="custom-control-label fs-6 mb-4" for="darkSwitch">Dark Mode</label>
+        </div>
+        <button type="submit" class="btn btn-outline-primary">Login</button>
+    </form>
+</body>
+
+</html>

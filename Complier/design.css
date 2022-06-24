@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* overflow-x: hidden; */
+}
+
+body {
+    background-color: #333642;
+    overflow-x: hidden;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+
+}
+
+.container.view1 {  
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 0.625rem;
+}
+
+.container.view2 {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0.625rem;
+}
+
+.coder {
+    display: grid;
+    padding: 0.625rem;
+}
+
+.coder.view1 {
+    height: 100%;
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0.625rem;
+}
+
+.coder.view2 {
+    height: 100%;
+    width: 100%;
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 0.625rem;
+}
+
+.code-editor {
+    height: 100%;
+    width: 100%;
+}
+
+.code {
+    background-color: #1D1E22;
+    height: 100%;
+    width: 100%;
+}
+
+.code-type {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    height: fit-content;
+    width: 100%;
+    background-color: #1A1B1F;
+    padding: 0.625rem;
+    border-bottom: 0.063rem solid #333642;
+}
+
+.ace_gutter {
+    background-color: #1D1E22 !important;
+}
+
+.ace_gutter-cell.ace_gutter-active-line.ace_info {
+    background-color: #1D1E22 !important;
+}
+
+.ace-nord-dark .ace_gutter-active-line {
+    background-color: #1D1E22 !important;
+}
+
+.output {
+    background-color: #ffffff;
+}
+
+.virtual-iframe {
+    height: 100%;
+    width: 100%;
+}
+
+.change-layout {
+    position: absolute;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 7px;
+    background-color: #444857;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    padding: 0.625rem 1.25rem;
+    margin: auto;
+    bottom: 1rem;
+    left: 1rem;
+    cursor: pointer;
+    z-index: 20;
+    user-select: none;
+}
+
+
+.change-layout:hover {
+    background-color: #2d303a;
+}
+
+
+.save-layout {
+    position: absolute;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 7px;
+    background-color: #444857;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    padding: 0.625rem 1.25rem;
+    margin: auto;
+    bottom: 1rem;
+    right: 1rem;
+    cursor: pointer;
+    z-index: 20;
+    user-select: none;
+}
+
+
+.save-layout:active {
+    background-color: #2d303a;
+}
