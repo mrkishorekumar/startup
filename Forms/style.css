@@ -1,9 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@500;700&display=swap");
 
 body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
     font-family: "Inter", sans-serif;
 }
 
@@ -12,10 +9,6 @@ h2 {
 }
 
 form {
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    position: absolute;
     font-weight: 700;
 }
 
