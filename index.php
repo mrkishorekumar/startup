@@ -12,9 +12,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
         crossorigin="anonymous"></script>
-    <script src="Forms/js/dark-mode-switch.min.js" defer></script>
+    <script src="start/js/dark-mode-switch.min.js" defer></script>
     <link rel="icon" type="image/x-icon" href="favicon/favicon.ico">
-    <link rel="stylesheet" href="Forms/style.css" />
+    <link rel="stylesheet" href="start/style.css" />
     
 </head>
 <body class="p-3 mb-4 my-4">
