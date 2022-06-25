@@ -22,8 +22,8 @@
         <img src="favicon/android-chrome-512x512.png" class="img-fluid mt-5" alt="logo">
         <h2>The best place to build, test, and discover front-end code.</h2>
         <p>This is a social development environment for front-end designers and developers.<br /> Build and deploy a website, show off your work, build test cases to learn and debug, and find inspiration.</p>
-        <a class="btn btn-primary my-3" href="Complier/code.php" role="button">Start Coding !</a>
-        <a class="btn btn-outline-secondary" href="Forms/index.php" role="button">Login / Register</a>
+        <a class="btn btn-primary my-3" href="start/code/code.php" role="button">Start Coding !</a>
+        <a class="btn btn-outline-secondary" href="start/index.php" role="button">Login / Register</a>
         <div class="custom-control custom-switch my-3">
             <input type="checkbox" class="custom-control-input" id="darkSwitch">
             <label class="custom-control-label fs-6 mb-4" for="darkSwitch">Dark Mode</label>
